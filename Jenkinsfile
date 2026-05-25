@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('1. Checkout') {
             steps {
-                git url: 'https://github.com/your-username/my-docker-jenkins-app.git', branch: 'main'
+                git url: 'https://github.com/CoderSohail2003/my-docker-jenkins-app.git', branch: 'main'
             }
         }
         stage('2. Build HTML Image') {
